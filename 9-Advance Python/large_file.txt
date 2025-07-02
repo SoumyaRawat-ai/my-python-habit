@@ -1,0 +1,29 @@
+Lazy loading is a technique used to improve website performance by delaying the loading of non-critical resources (like images, videos, or code) until they are needed, typically when a user scrolls to them or interacts with a specific part of the page. This contrasts with loading everything upfront, which can slow down initial page load times. 
+Here's how it works:
+Deferred Loading:
+Instead of loading all assets at once, lazy loading delays the loading of certain resources until they are actually visible in the user's viewport or when the user interacts with them. 
+Resource Optimization:
+By loading only what's necessary initially, lazy loading reduces the initial page load time and bandwidth usage. 
+Improved User Experience:
+Faster loading times and reduced resource consumption lead to a better overall user experience. 
+Benefits of Lazy Loading: 
+Faster Initial Page Load:
+Websites with lazy loading load faster because they don't have to load all resources at once. 
+Reduced Bandwidth Consumption:
+Only necessary resources are loaded, which conserves bandwidth and can be particularly beneficial for users with limited internet access. 
+Improved SEO:
+Faster page load times can positively impact SEO rankings, as search engines prioritize websites that offer a good user experience. 
+Optimized Performance:
+Lazy loading helps manage large datasets, complex objects, or unused resources by loading them only when they are needed. 
+Enhanced Mobile Experience:
+Lazy loading is particularly beneficial for mobile users, as it can help reduce loading times and bandwidth usage on devices with slower internet connections. 
+Implementation Methods:
+Browser-level lazy loading:
+Modern browsers support native lazy loading for images and iframes using the loading="lazy" attribute. 
+JavaScript-based lazy loading:
+JavaScript libraries and custom code can be used to implement lazy loading for various resources, including images, videos, and components. 
+Intersection Observer API:
+This API efficiently detects when an element enters the viewport, making it a powerful tool for implementing lazy loading. 
+Lazy-loading feature modules (Angular):
+In Angular, lazy loading can be used to load feature modules as needed, reducing the initial bundle size and improving load times. 
+Lazy loading is a valuable technique for improving website performance and user experience by intelligently managing resource loading. By deferring the loading of non-critical resources until they are needed, websites can achieve faster load times, reduced bandwidth consumption, and a more responsive user experience. 
